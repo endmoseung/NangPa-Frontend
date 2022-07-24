@@ -10,7 +10,7 @@ const RootRoute = () => {
             <Routes>
                 <Route path='/' element={<Main />} />
                 <Route path='/:recipeId/detail' element={<Detail />} />
-                <Route path='/fridge' element={<Search />} />
+                <Route path='/search' element={<Search />} />
                 <Route path='/mypage' element={<MyPageIndex />} />
             </Routes>
         </BrowserRouter>

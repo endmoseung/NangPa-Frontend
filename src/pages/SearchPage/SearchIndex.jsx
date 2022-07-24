@@ -14,7 +14,7 @@ let data = [
 ];
 
 const RefridgeTitle = styled.h2`
-    margin-top  15px;
+    margin-top: 15px;
     margin-bottom: 19px;
     font-weight: 600;
     font-size: 24px;
@@ -53,7 +53,7 @@ function SearchIndex() {
         // console.log(searchInput);
     }, [searchInput]);
     return (
-        <Container className='min-vh-100 d-flex flex-column search-wrap'>
+        <Container className='min-vh-100 d-flex flex-column search_wrap'>
             <Row xs={12}>
                 <Col xs={12}>
                     <RefridgeTitle>
