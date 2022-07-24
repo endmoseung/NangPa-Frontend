@@ -1,0 +1,39 @@
+.mypage-wrap {
+    position: relative;
+    background-color: #eee;
+    text-align: center;
+}
+.mypage-wrap::before {
+    content: '';
+    position: absolute;
+    width: 375px;
+    height: 521px;
+    left: 50%;
+    top: -225px;
+    background: #2e8cfe;
+    border-radius: 151.5px;
+    transform: translate(-50%, 0);
+}
+
+.mypage-wrap.profile-info-wrap {
+    font-family: 'SUIT';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #232323;
+}
+
+.mypage-wrap .btn-profile {
+    padding: 6px 16px;
+    margin: 0 5.5px;
+    font-family: 'SUIT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.05em;
+    color: #ffffff;
+    background: #2e8cfe;
+    border-radius: 20px;
+}

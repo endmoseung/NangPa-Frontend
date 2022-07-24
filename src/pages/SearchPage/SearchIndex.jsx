@@ -53,7 +53,7 @@ function SearchIndex() {
         // console.log(searchInput);
     }, [searchInput]);
     return (
-        <Container className='min-vh-100 d-flex flex-column search_wrap'>
+        <Container className='min-vh-100 d-flex flex-column search-wrap'>
             <Row xs={12}>
                 <Col xs={12}>
                     <RefridgeTitle>
